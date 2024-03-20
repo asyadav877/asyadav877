@@ -7,20 +7,22 @@ Skills 🛠
 - 💻 Infrastructure as Code (IaC): Terraform
 - ⚙️ Configuration Management: Ansible
 - 🚀 CI/CD: Jenkins, ArgoCD
-🐳 Containers: Docker, Kubernetes
-📊 Monitoring: Prometheus, Grafana, ELK stack
-📜 Logging: ELK, Opensearch
-🔄 Version Control: Git, GitHub, Bitbucket
-☁️ AWS Services: EC2, S3, SQS, Lambda, IAM, EKS, etc
-🐍 Python Automations: Scripting, Automation
-🔄 Message Brokers: Redis, Kafka
-🤝 Collaboration: Teamwork makes the dream work!
+- 🐳 Containers: Docker, Kubernetes
+- 📊 Monitoring: Prometheus, Grafana, ELK stack
+- 📜 Logging: ELK, Opensearch
+- 🔄 Version Control: Git, GitHub, Bitbucket
+- ☁️ AWS Services: EC2, S3, SQS, Lambda, IAM, EKS, etc
+- 🐍 Python Automations: Scripting, Automation
+- 🔄 Message Brokers: Redis, Kafka
+- 🤝 Collaboration: Teamwork makes the dream work!
 
 Education 📚
-🎓 Bachelor of Science in Computer Science, [AKTU], [2022]
+- 🎓 Bachelor of Science in Computer Science, [AKTU], [2022]
+
 Let's Connect! 🌐
-👋 LinkedIn: [https://www.linkedin.com/in/ashish-yadav03/]
-📧 Email: [asyadav877@gmail.com]
+- 👋 LinkedIn: [https://www.linkedin.com/in/ashish-yadav03/]
+- 📧 Email: [asyadav877@gmail.com]
+
 Keep coding, stay curious, and never stop automating! 🤖✨
 
 
