@@ -3,10 +3,10 @@ Hey there! Welcome to my GitHub profile! 🎉
 
 I'm a DevOps enthusiast with over 2 years of experience in making the digital world a better place, one deploy at a time! 🚀
 
-Skills 🛠️
-💻 Infrastructure as Code (IaC): Terraform
-⚙️ Configuration Management: Ansible
-🚀 CI/CD: Jenkins, ArgoCD
+Skills 🛠
+- 💻 Infrastructure as Code (IaC): Terraform
+- ⚙️ Configuration Management: Ansible
+- 🚀 CI/CD: Jenkins, ArgoCD
 🐳 Containers: Docker, Kubernetes
 📊 Monitoring: Prometheus, Grafana, ELK stack
 📜 Logging: ELK, Opensearch
