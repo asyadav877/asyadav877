@@ -1,7 +1,7 @@
 DevOps Engineer 👨‍💻
 Hey there! Welcome to my GitHub profile! 🎉
 
-I'm a DevOps enthusiast with over 2 years of experience in making the digital world a better place, one deploy at a time! 🚀
+I'm a DevOps enthusiast with over 3 years of experience in making the digital world a better place, one deploy at a time! 🚀
 
 Skills 🛠
 - 💻 Infrastructure as Code (IaC): Terraform
