@@ -48,15 +48,12 @@ I'm always excited to collaborate on interesting projects or discuss the latest 
 
 - 💼 **LinkedIn**: [Ashish Yadav](https://www.linkedin.com/in/ashish-yadav03/)
 - 📧 **Email**: asyadav877@gmail.com
-- 🐦 **Twitter**: [@yourhandle] (if you have one)
 
 ### 💭 Fun Fact
 I can automate my coffee machine to brew at the exact moment my CI/CD pipeline completes! ☕🤖
 
 ---
-
 ⭐️ **Fun fact**: This README is also automated - because why not? 😉
-
 ---
 
 <!---
