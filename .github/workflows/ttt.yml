@@ -1,0 +1,38 @@
+name: tic-tac-toe
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: ttt
+  cancel-in-progress: false
+
+jobs:
+  move:
+    if: startsWith(github.event.issue.title, 'ttt|')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: play move
+        env:
+          TITLE: ${{ github.event.issue.title }}
+        run: python3 games/ttt.py "$TITLE"
+      - name: commit board
+        run: |
+          git config user.name "ttt-bot"
+          git config user.email "actions@github.com"
+          git add README.md games/state.json
+          git diff --cached --quiet || git commit -m "ttt: ${{ github.event.issue.number }}"
+          git push
+      - name: close issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue close ${{ github.event.issue.number }} \
+            --comment "Move played! 🎮 See the board → https://github.com/asyadav877" \
+            --repo ${{ github.repository }}

@@ -1,0 +1,100 @@
+<svg width="860" height="340" viewBox="0 0 860 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="858" height="338" rx="12" fill="#0d1117" stroke="#30363d"/>
+
+  <!-- falling leaves -->
+  <g fill="#7ee787" opacity="0.7">
+    <path d="M0,0 q6,-8 12,0 q-6,8 -12,0" transform="translate(120,40)">
+      <animateTransform attributeName="transform" type="translate" values="120,-20;100,360" dur="7s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,0 q6,-8 12,0 q-6,8 -12,0" transform="translate(700,80)" opacity="0.5">
+      <animateTransform attributeName="transform" type="translate" values="700,-20;730,360" dur="9s" begin="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,0 q6,-8 12,0 q-6,8 -12,0" transform="translate(400,60)" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="380,-20;420,360" dur="8s" begin="4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- speech bubble -->
+  <g opacity="0">
+    <rect x="470" y="60" rx="10" width="330" height="66" fill="#161b22" stroke="#30363d"/>
+    <path d="M470,100 l-16,10 l16,4 z" fill="#161b22" stroke="#30363d"/>
+    <text x="486" y="87" font-family="ui-monospace,Menlo,monospace" font-size="15" fill="#e6edf3">kubectl scale --replicas=1000</text>
+    <text x="486" y="112" font-family="ui-monospace,Menlo,monospace" font-size="15" fill="#ffa657">shadow-clone jutsu! 🍥 dattebayo!</text>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="6s" begin="1s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- shadow clones (flicker in behind) -->
+  <g opacity="0">
+    <use href="#ninja" x="-90" y="10"/>
+    <animate attributeName="opacity" values="0;0.25;0" dur="6s" begin="2.5s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <use href="#ninja" x="95" y="14"/>
+    <animate attributeName="opacity" values="0;0.25;0" dur="6s" begin="3s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- chakra aura -->
+  <ellipse cx="300" cy="215" rx="120" ry="95" fill="#ffa657" opacity="0.10">
+    <animate attributeName="opacity" values="0.06;0.16;0.06" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="rx" values="115;130;115" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- ninja -->
+  <g id="ninja">
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-8;0,0" dur="3.5s" repeatCount="indefinite"/>
+
+    <!-- legs crossed -->
+    <path d="M245,282 q55,26 110,0 q-14,20 -55,20 q-41,0 -55,-20z" fill="#1f6feb"/>
+    <!-- body: orange hoodie -->
+    <path d="M258,225 q42,-22 84,0 q14,34 6,58 q-48,16 -96,0 q-8,-24 6,-58z" fill="#f0883e"/>
+    <path d="M258,225 q42,-22 84,0 l-6,10 q-36,-18 -72,0 z" fill="#da6d28"/>
+    <!-- zipper -->
+    <line x1="300" y1="212" x2="300" y2="268" stroke="#0d1117" stroke-width="2.5"/>
+
+    <!-- arms to laptop -->
+    <path d="M262,238 q-20,22 6,34" stroke="#f0883e" stroke-width="13" stroke-linecap="round"/>
+    <path d="M338,238 q20,22 -6,34" stroke="#f0883e" stroke-width="13" stroke-linecap="round"/>
+
+    <!-- laptop -->
+    <g>
+      <path d="M262,268 l76,0 l10,16 l-96,0 z" fill="#30363d"/>
+      <rect x="268" y="234" width="64" height="36" rx="3" fill="#161b22" stroke="#30363d"/>
+      <rect x="273" y="239" width="54" height="26" rx="2" fill="#0d1117"/>
+      <text x="277" y="252" font-family="monospace" font-size="9" fill="#7ee787">$ deploy</text>
+      <text x="277" y="262" font-family="monospace" font-size="9" fill="#7ee787">█
+        <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+      </text>
+      <rect x="273" y="239" width="54" height="26" rx="2" fill="#7ee787" opacity="0.06">
+        <animate attributeName="opacity" values="0.04;0.12;0.04" dur="2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- head -->
+    <circle cx="300" cy="165" r="58" fill="#ffd9b3"/>
+    <!-- spiky hair -->
+    <path d="M244,150 l-16,-26 l24,10 l-4,-30 l20,18 l4,-32 l16,22 l12,-30 l12,30 l16,-22 l4,32 l20,-18 l-4,30 l24,-10 l-16,26 q-56,-30 -112,0z" fill="#ffd75e"/>
+    <path d="M244,150 q56,-30 112,0 l0,6 q-56,-26 -112,0z" fill="#e8b93e"/>
+    <!-- headband -->
+    <rect x="244" y="150" width="112" height="18" rx="6" fill="#1f6feb"/>
+    <rect x="276" y="148" width="48" height="22" rx="4" fill="#8b949e"/>
+    <rect x="276" y="148" width="48" height="22" rx="4" fill="none" stroke="#6e7681"/>
+    <!-- leaf spiral on plate -->
+    <path d="M300 152 a7 7 0 1 1 -7 7 a4.5 4.5 0 1 0 4.5 -4.5" stroke="#30363d" stroke-width="2.2" fill="none"/>
+    <!-- eyes (blink) -->
+    <ellipse cx="278" cy="188" rx="6" ry="7" fill="#0d1117">
+      <animate attributeName="ry" values="7;7;0.8;7" keyTimes="0;0.9;0.94;1" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="322" cy="188" rx="6" ry="7" fill="#0d1117">
+      <animate attributeName="ry" values="7;7;0.8;7" keyTimes="0;0.9;0.94;1" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <!-- whiskers -->
+    <g stroke="#c98a5a" stroke-width="2" stroke-linecap="round">
+      <line x1="252" y1="192" x2="266" y2="194"/><line x1="252" y1="200" x2="266" y2="200"/><line x1="252" y1="208" x2="266" y2="206"/>
+      <line x1="348" y1="192" x2="334" y2="194"/><line x1="348" y1="200" x2="334" y2="200"/><line x1="348" y1="208" x2="334" y2="206"/>
+    </g>
+    <!-- grin -->
+    <path d="M286,208 q14,12 28,0" stroke="#0d1117" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <text x="300" y="326" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#8b949e">the ninja way of DevOps — never rollback on your word 🍥</text>
+</svg>
